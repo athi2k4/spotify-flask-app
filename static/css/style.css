@@ -1,0 +1,158 @@
+body {
+    background-color: #121212 !important;
+    color: #FFFFFF !important;
+    font-family: Arial, sans-serif;
+}
+
+.bg-black {
+    background-color: #121212; /* Dark background */
+}
+
+.text-success {
+    color: #1DB954; /* Spotify Green color */
+}
+
+
+.profile-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    object-fit: cover; /* Ensures the image covers the element */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.profile-name {
+    font-size: 24px; /* Font size for the name */
+    color: #FFFFFF; /* White text color */
+    margin: 0; /* Remove default margin */
+}
+
+.profile-email {
+    font-size: 14px; /* Font size for the email */
+    color: #B3B3B3; /* Lighter color for the email */
+    margin: 0; /* Remove default margin */
+}
+
+
+.card {
+    background-color: #1E1E1E !important;
+    border: none;
+    margin: 5px;  /* Reduce space between cards */
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;  /* Square image */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;  /* Rounded corners at the top */
+}
+
+.card-body {
+    padding: 0;
+    margin-top: -5px;  /* Overlap text closer to the image */
+}
+
+.card-title {
+    font-size: 16px;
+    color: #FFF;
+    margin: 5px 0 0 0;
+    padding: 5px;
+    background-color: #1E1E1E;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #B3B3B3;
+    padding: 0 5px 10px 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #1DB954 !important;
+    border: none !important;
+    outline: none !important;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #17A14A !important;
+    border:none;
+    outline: none;
+
+}
+
+.navbar {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+.recently-played,
+.playlists {
+    margin: 5px;  /* Make it more compact */
+}
+
+.album-art {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.track-info {
+    margin-left: 10px;
+    color: #B3B3B3;
+    font-size: 12px;
+}
+
+.row {
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-5 {
+    flex: 0 0 19%;
+    max-width: 19%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.form-control {
+    background-color: #1E1E1E !important; /* Dark background */
+    color: #FFFFFF !important; /* White text */
+    border: none; /* Remove default border */
+}
+
+.form-control:focus {
+    background-color: #1E1E1E !important; /* Keep dark on focus */
+    color: #FFFFFF !important;
+    box-shadow: none; /* Remove shadow */
+    border-color: #1DB954; /* Green focus border */
+}

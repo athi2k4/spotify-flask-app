@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <style>
+        /* Dark theme custom styles */
+        body {
+            background-color: #121212; /* Dark background */
+            color: #FFFFFF; /* Light text */
+        }
+        h1, p {
+            color: #FFFFFF;
+        }
+        .btn-primary {
+            background-color: #1DB954; /* Spotify green */
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #17A14A; /* Darker green on hover */
+        }
+        .container {
+            margin-top: 100px; /* Adding margin for better centering */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container text-center">
+    <h1 class="display-4">Welcome to the Spotify App</h1>
+    <p class="lead">Discover your favorite artists and songs easily.</p>
+    <a href="/login" class="btn btn-primary btn-lg">Login with Spotify</a>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
