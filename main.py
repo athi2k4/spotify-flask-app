@@ -14,7 +14,7 @@ app.secret_key = os.urandom(24)
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
 
-# Loading environment variables
+# Loading environment var
 load_dotenv()
 client_id = os.getenv("CLIENT_ID")
 client_secret = os.getenv("CLIENT_SECRET")
